@@ -1,14 +1,324 @@
 body {
-    margin: 0
+    margin: 0;
+    font-family: 'Inter', sans-serif;
 }
-h1, h2, h3, h4, p{
+header {
+    background-color:#C11616; ;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+figure{
     margin: 0;
 }
+
+header a {
+    color: #FFF;
+    margin-right: 15px;
+}
+header .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-links {
+    display: flex;
+    margin-left: 30px;
+}
+header .header-links p {
+    color: #FFF;
+}
+header .right {
+    display: flex;
+}
+header .line {
+    width: 1px;
+    height: 60px;
+    background: var(--neutras-white, #FFF);
+}
+.left img {
+    width: 181.507px;
+    height: 56.156px;
+    margin-right: 35px;
+}
+.left h1 {
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 500;
+    color: #FFF;
+    margin-left: 30px;
+}
+header .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right .buscar .barra {
+    width: 281.5px;
+    height: 1px;
+    background-color: #ffffff;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+header .right .buscar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro .title h2 {
+    color: var(--neutras-aco, #273644);
+    font-size: 40px;
+    font-weight: 800;
+    width: 787px;
+    padding-left: 120px;
+}
+.intro .title {
+    display: flex;
+    position: relative;
+    margin-right: 120px;
+    margin-top: 50px;
+}
+.intro .title img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+div .caixa {
+    width: 787px;
+    height: 39px;
+    background-color: rgba(239, 242, 247, 1);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.caixa p {
+    margin-left: 20px;
+}
+.caixa .balao {
+    display: flex;
+    margin-left: 40px;
+}
+.caixa .balao p{
+    position: relative;
+    left: 5px;
+    top: 0px;
+    right: 2px;
+    color: #F9FAFC;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 0;
+}
+.caixa .balao img{
+    position: absolute;
+    width: 32px;
+    height: 25px;
+    margin-top: 10px;
+}
+.caixa p a {
+    color: var(--ui-color-danger-light, #EB5151);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-decoration-line: underline;
+}
+.texto .paragrafo {
+    color: #707C8C;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    width: 787px;
+}
+.intro .continue img {
+    margin-left: 30px;
+}
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.intro .continue {
+    width: 270px;
+    display: flex;
+    align-items: center;
+    height: 31px;
+    background: linear-gradient(90deg, #EFF0F2 0%, rgba(249, 250, 252, 0.00) 50.31%);
+    border-color: #FFF;
+    margin-right: 500px;
+
+}
+.intro .red {
+    width: 81px;
+    height: 4px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #F00 0%, rgba(255, 0, 0, 0.46) 60.12%);
+    margin-top: 80px;
+    margin-bottom: 0;
+    margin-right: 700px;
+}
+.botoes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 850px;
+    height: 160px;
+    flex-wrap: wrap;
+}
+.botoes h2 {
+    color: var(--neutras-gray, #8D9AA6);
+    font-size: 26px;
+    font-weight: 300;
+}
+.botoes .botao {
+    display: flex;
+}
+.botao > div {
+    margin-right: 20px;
+    position: relative;
+}
+.botoes .botao p {
+    width: 23px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    border-radius: 50%;
+    border: 1px solid #EB5151;
+    color: var(--neutras-prata, #3C4B58);
+    font-size: 12px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    position: absolute;
+    top: -23px;
+    right: -8px;
+}
+.botoes .botao div:nth-child(3) p {
+    color: var(--ui-color-danger-dark, #C11616);
+
+}
+.botoes .botao button {
+    display: inline-flex;
+    padding: 4px 17px;
+    align-items: flex-start;
+    border: 1px solid rgba(235, 81, 81, 1);
+    background-color: #FFF;
+    position: relative;
+
+    color: var(--ui-color-danger-light, #EB5151);
+    font-size: 16px;
+    font-weight: 300;
+}
+.botoes a {
+    color: var(--neutras-gray, #8D9AA6);
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration-line: underline;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.carrossel {
+    display: flex;
+    justify-content: center;
+}
+.carrossel h3{
+    color: var(--ui-color-danger-light, #EB5151);
+    font-size: 26px;
+    font-weight: 700;
+}
+.carrossel article p {
+    color: var(--neutras-aco, #273644);
+    font-size: 16px;
+    font-weight: 500;
+}
+.carrossel .fotos {
+    width: 630px;
+    overflow-x: hidden;
+
+}
+.carrossel .fotos div {
+    display: flex;
+}
+.fotos article p {
+    width: 220px;
+}
+.carrossel article {
+    margin-right: 30px;
+}
+.fotos .gradiente {
+    width: 300px;
+    height: 120px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, #FDFDFD 82.6%);
+}
+.carrossel .videos {
+    width: 630px;
+    overflow-x: hidden;
+
+}
+.carrossel .videos div {
+    display: flex;
+}
+.videos article p {
+    width: 220px;
+}
+.carrossel a {
+    color: var(--ui-color-danger, #E62121);
+    text-align: right;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    margin-top: 10px;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+.carrossel a img {
+    margin-left: 20px;
+}
+.background-linear{
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, #FDFDFD 82.6%);
+    height: 100%;
+    width: 100%;
+}
+.background-foto-linear {
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.00) 0%, #FDFDFD 82.6%);
+    height: 310px;
+    width: 50%;
+}
+
+.video-linear{
+    position: relative;
+}
+.gradiente {
+    position: relative;
+}
+.videos div .video-1 p{
+    width: 382px;
+}
+/*css de flavia*/
+body {
+    margin: 0
+}
+
 /*section posts*/
 .section-posts {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
+    padding-top: 87px;
 }
 .section-posts .content {
     max-width: 787px;
@@ -26,6 +336,7 @@ h1, h2, h3, h4, p{
     font-weight: 300;
     padding-bottom: 9px;
     border-bottom: 1px solid #D3DDE6;
+    margin: 0;
 }
 .section-posts .content .container .container-post {
     display: flex;
@@ -40,6 +351,7 @@ h1, h2, h3, h4, p{
     font-size: 21px;
     font-style: normal;
     font-weight: 700;
+    margin: 0;
 }
 .section-posts .content .container .container-post .descr {
     display: flex;
@@ -52,6 +364,7 @@ h1, h2, h3, h4, p{
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
+    margin: 0;
 }
 .section-posts .content .container .container-post .descr .description .link {
     color: var(--neutras-prata, #3C4B58);
@@ -72,6 +385,7 @@ h1, h2, h3, h4, p{
     font-style: normal;
     font-weight: 700;
     line-height: 160%;
+    margin: 0;
 }
 .section-posts .content .link-more {
     color: var(--neutras-prata, #3C4B58);
@@ -119,6 +433,7 @@ h1, h2, h3, h4, p{
     font-weight: 800;
     letter-spacing: 0.52px;
     text-transform: uppercase;
+    margin: 0;
 }
 .section-serie-posts .content .title p {
     color: var(--neutras-gray, #8D9AA6);
@@ -126,6 +441,7 @@ h1, h2, h3, h4, p{
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
+    margin: 0;
 }
 .section-serie-posts .content .publi {
     display: flex;
@@ -154,6 +470,7 @@ h1, h2, h3, h4, p{
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
+    margin: 0;
 }   
 .section-serie-posts .content .publi .container-retangle .descr p .bold{
     font-weight: 700;
@@ -164,6 +481,7 @@ h1, h2, h3, h4, p{
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
+    margin: 0;
 }  
 .section-serie-posts .content .publi .container-retangle .descr  {
     color: var(--ui-color-danger-dark, #C11616);
@@ -182,6 +500,7 @@ h1, h2, h3, h4, p{
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
+    margin: 0;
 }
 .section-serie-posts .content .publi .container-retangle .author p .gray {
     color: var(--neutras-gray, #8D9AA6);
