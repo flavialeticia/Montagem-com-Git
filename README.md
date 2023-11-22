@@ -1,4 +1,4 @@
 # Montagem-com-Git
-Alunas: Esther Rosendo e Flavia Leticia
-Header e Main - Esther 
+Alunos: Esther Rosendo, Flavia Leticia e Talison Gustavo
+Header e Main - Esther e Talison
 Main e Footer - Flavia
